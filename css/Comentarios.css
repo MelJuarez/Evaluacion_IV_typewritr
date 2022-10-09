@@ -1,0 +1,55 @@
+.Coments{
+    margin: 1rem 2rem 3rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Writers_say h3{
+    font-size: 2rem;
+    margin: 2rem 2rem  0rem 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+.coment_1{
+    border: 1px solid rgba(196, 196, 196, 0.5);
+    height: 7.3rem;
+    width: 18.5rem;
+    border-radius: 1rem;
+    background-color: rgba(248, 247, 247, 1);
+    padding: 2rem;
+
+    display: flex;
+    flex-direction: column;
+}
+.coment_1 p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+}
+.Coments .flechaa1{
+    height: 6rem;
+    width: 4rem;
+}
+.Coments .flechaa2{
+    height: 6rem;
+    width: 4rem;
+    transform: rotate(180deg);
+}
+.e{
+    margin-top: 1rem;
+    height: 1.3rem;
+}
+@media only screen and (min-width:1366px){
+    .Coments{
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 10rem;
+        align-items: center;
+    }
+    .Coments .flechaa2{
+        margin-left: 87rem;
+    }
+    .Writers_say h3{
+        font-size: 3rem;
+        margin: 2rem 2rem  0rem 12rem;
+    }
+    
+}

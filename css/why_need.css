@@ -1,0 +1,123 @@
+.why_need{
+    width: 100%;
+    height: auto;
+    display: flex;  
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.yellow_box{
+    height: 35rem;
+    width: auto;
+    background-color: var(--color1);
+    margin: 2rem 2rem 0 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+.why{
+    font-size: 1.5rem;
+    padding: 2rem 0 0 2rem;
+}
+/*----Campana-----*/
+.campana{
+    margin: 3rem 3rem 0 2rem;
+    display: flex;
+    align-items: center;
+    
+}
+.campana img{
+    height: 3.5rem;
+}
+.campana p{
+    margin: 0 0 0 2rem;
+    font-size: 1.5rem;
+}
+/*-----Teclado----*/
+.tec{
+    display: flex;
+    align-items: center;
+    margin: 2rem 2rem 0 2rem ;
+}
+.tec img{
+    height: 3.3rem;
+}
+.tec p{
+    font-size: 1.5rem;
+    margin: 0 0 0 2rem;
+}
+/*-----Nube---------*/
+.nube{
+    display: flex;
+    align-items: center;
+    margin: 2rem 2rem 0 2rem;
+}
+.nube img{
+    height: 2.6rem;
+}
+.nube p{
+    font-size: 1.5rem;
+    margin: 0 0 0 2rem;
+}
+/*-------botón---------*/
+.button_2{
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.boton_2{
+    text-decoration: none;
+    display: block;
+    width: 15.6rem;
+    height: 3.5rem;
+    background-color: var(--color2);
+    color: var(--color1);
+    border-radius: 0.8rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    font-family: 'Sen',sans-serif, ;
+    margin: 2rem 0 2rem 0;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (min-width:1366px){
+    .why_need{
+        display: flex;  
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .yellow_box{
+    height: 38rem;
+    width: 40%;
+    margin:2rem 1rem 0 0;
+    }
+    .why{
+        font-size: 2.5rem;
+        font-family: 'Roboto', sans-serif;
+    }
+    .campana{
+        font-family: 'Roboto', sans-serif; 
+    }
+    .campana img{
+        height: 4rem;
+    }
+    .campana p{
+        font-size: 1.9rem;
+    }
+    .tec img{
+        height: 3.8;
+    }
+    .tec p{
+        font-size: 1.9rem;
+    }
+    .nube img{
+        height: 3.1rem;
+    }
+    .nube p{
+        font-size: 1.9rem;
+    }
+    .boton_2{
+        height: 4.3rem;
+    }
+
+
+}

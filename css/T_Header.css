@@ -1,0 +1,57 @@
+header{
+    height: 7rem;
+    width: 100%;
+    width: auto;
+    background-color: white;
+
+    /*DISPLAY FLEX*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+.icons{
+    width: 12.5rem;
+    padding: 2.7rem 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.icons .teclado{
+    height: 1.9rem;
+}
+.icons .typw{
+    height: 1.9rem;
+}
+.lineas{
+    height: 35%;
+    width: 8rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.lineas hr{
+    color: var(--color2);
+}
+
+@media only screen and (min-width:1366px){
+    header{
+        background-image: url(./../img/Cachorro.png);
+    }
+    .icons .teclado{
+        height: 2.9rem;
+    }
+    .icons .typw{
+        height: 2.9rem;
+    }
+    .icons{
+        width: 19rem;
+        margin: 3rem 0 0 10rem;
+    }
+    .lineas{
+        margin: 0 10rem 0 0;
+    }
+}

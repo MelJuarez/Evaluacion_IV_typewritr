@@ -1,0 +1,97 @@
+.Dog_Cut{
+    height: 25.2rem;
+    width: 100%;
+    
+    position: relative;
+    background-image: url(./../img/Cachorro.png);
+    background-position:center;
+    background-size: cover;
+    
+}
+.fund{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(211, 211, 211);
+    object-fit: cover;
+    opacity :0.4 ;
+
+}
+.Dog_Cut .contenido_Dog{
+    width: auto;
+    height: 100%;
+    height: auto;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    top: 0;
+    left: 0;;
+    padding: 2.5rem;
+}
+.contenido_Dog h1{
+    color: var(--color2);
+    font-family: 'Roboto';
+    font-size: 2.5rem;
+    font-weight: bolder;
+    
+}
+.contenido_Dog p{
+    margin-top: 2rem;
+    font-size: 2.5rem;
+}
+
+.Boton_y_flecha{
+    display: flex;
+    
+}
+
+.Buy_Y{
+    text-decoration: none;
+    display: block;
+    width: 15.7rem;
+    height: 3.5rem;
+    background-color: var(--color1);
+    color: var(--color2);
+    border-radius: 0.8rem;
+    font-size: 1.6rem;
+    font-weight: 800;
+    margin: 2rem 0 0 0;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.Dog_Cut img{
+    height: 7rem;
+    margin: 0 0 0 2rem;
+    transform:rotate(15deg) ;
+  
+}
+
+@media only screen and (min-width:1366px){
+    .Dog_Cut{
+        height: 45rem;
+    }
+    .contenido_Dog{
+        margin: 7rem 0 0 10rem;
+        
+    }
+    .contenido_Dog h1{
+        font-size: 4rem;
+    }
+    .contenido_Dog p{
+        font-size: 3rem;
+        width: 45rem;
+    }
+    .Buy_Y{
+        width: 27.8rem;
+        height: 5rem;
+        margin-top: 3rem;
+        font-size: 2rem;
+    }
+    .Dog_Cut img {
+        width: 17rem;
+        height: 14rem;
+        
+    }
+}
