@@ -10,7 +10,7 @@ html{
     color: var(--color2);
 }
 body{
-    width: 100%;
+    max-width: 375px;
 
 }
 :root{
